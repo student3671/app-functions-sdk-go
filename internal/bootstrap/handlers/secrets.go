@@ -23,8 +23,8 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/bootstrap/startup"
 	"github.com/edgexfoundry/go-mod-bootstrap/di"
 
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/bootstrap/container"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/security"
+	"github.com/student3671/app-functions-sdk-go/internal/bootstrap/container"
+	"github.com/student3671/app-functions-sdk-go/internal/security"
 )
 
 // Secrets contains references to dependencies required by the Secrets bootstrap implementation.

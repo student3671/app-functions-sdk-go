@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/store/contracts"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/store/db"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/store/db/interfaces"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/store/db/redis/models"
+	"github.com/student3671/app-functions-sdk-go/internal/store/contracts"
+	"github.com/student3671/app-functions-sdk-go/internal/store/db"
+	"github.com/student3671/app-functions-sdk-go/internal/store/db/interfaces"
+	"github.com/student3671/app-functions-sdk-go/internal/store/db/redis/models"
 
 	"github.com/gomodule/redigo/redis"
 )

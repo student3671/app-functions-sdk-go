@@ -17,9 +17,9 @@
 package transforms
 
 import (
-	"github.com/edgexfoundry/app-functions-sdk-go/pkg/util"
+	"github.com/student3671/app-functions-sdk-go/pkg/util"
 
-	"github.com/edgexfoundry/app-functions-sdk-go/appcontext"
+	"github.com/student3671/app-functions-sdk-go/appcontext"
 )
 
 // OutputData houses transform for outputting data to configured trigger response, i.e. message bus

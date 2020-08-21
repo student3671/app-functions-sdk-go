@@ -29,12 +29,12 @@ import (
 	"github.com/edgexfoundry/go-mod-core-contracts/clients/logger"
 	"github.com/edgexfoundry/go-mod-core-contracts/models"
 
-	"github.com/edgexfoundry/app-functions-sdk-go/appcontext"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/common"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/runtime"
-	triggerHttp "github.com/edgexfoundry/app-functions-sdk-go/internal/trigger/http"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/trigger/messagebus"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/webserver"
+	"github.com/student3671/app-functions-sdk-go/appcontext"
+	"github.com/student3671/app-functions-sdk-go/internal/common"
+	"github.com/student3671/app-functions-sdk-go/internal/runtime"
+	triggerHttp "github.com/student3671/app-functions-sdk-go/internal/trigger/http"
+	"github.com/student3671/app-functions-sdk-go/internal/trigger/messagebus"
+	"github.com/student3671/app-functions-sdk-go/internal/webserver"
 )
 
 var lc logger.LoggingClient
