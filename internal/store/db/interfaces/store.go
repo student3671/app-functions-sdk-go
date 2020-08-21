@@ -16,7 +16,7 @@
 package interfaces
 
 import (
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/store/contracts"
+	"github.com/student3671/app-functions-sdk-go/internal/store/contracts"
 )
 
 // StoreClient establishes the contracts required to persist exported data before being forwarded.
