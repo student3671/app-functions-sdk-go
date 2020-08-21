@@ -23,9 +23,9 @@ package redis
 import (
 	"testing"
 
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/store/contracts"
-	"github.com/edgexfoundry/app-functions-sdk-go/internal/store/db"
 	"github.com/stretchr/testify/require"
+	"github.com/student3671/app-functions-sdk-go/internal/store/contracts"
+	"github.com/student3671/app-functions-sdk-go/internal/store/db"
 
 	"github.com/google/uuid"
 )
