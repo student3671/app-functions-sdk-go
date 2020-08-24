@@ -209,19 +209,6 @@ func (sender HTTPSender) HTTPSPost(edgexcontext *appcontext.Context, params ...i
 	transport := &http.Transport{TLSClientConfig: tlsConfig}
 
 	client := &http.Client{Transport: transport}
-
-	// Do GET something
-	resp, err := client.Get("https://localhost:8443")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer resp.Body.Close()
-	data, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println(string(data))
-
 	req, err := http.NewRequest(http.MethodPost, sender.URL, bytes.NewReader(exportData))
 	if err != nil {
 		return false, err
